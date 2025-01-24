@@ -1,15 +1,12 @@
 public class Battleship {
-    private String[][] board; // 2D array for the board
-    private int turns;        // Number of turns remaining
+    // 2D array for the board
+    private String[][] board; //set board here
+    // Number of turns remaining
+    private int turns;        
     
     // Constructor
     public Battleship() {
-    
         turns = 10;              // Set initial turns to 10
-       
-        // Initialize the board with "-"
-        board = null;
-
         placeShips(); // Call method to place ships
     }
     
