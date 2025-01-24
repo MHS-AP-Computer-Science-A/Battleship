@@ -8,7 +8,7 @@ public class Battleship {
         turns = 10;              // Set initial turns to 10
        
         // Initialize the board with "-"
-        board = {{1} };
+        board = null;
 
         placeShips(); // Call method to place ships
     }
